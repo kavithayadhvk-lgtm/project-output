@@ -1,0 +1,20 @@
+abstract class plane
+{
+    abstract void takeoff();
+    abstract void fly();
+    abstract void land();
+}
+class cargoplane extends plane{
+    void takeoff()
+    {
+        system.out.println("cargoplane is takeoff");
+    }
+    void fly()
+    {
+        system.out.println("cargoplane is flying at low height");
+    }
+    void land()
+    {
+        system.out.println("cargoplane is landing");
+    }
+}
